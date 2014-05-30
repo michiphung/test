@@ -79,7 +79,7 @@ public final class UpdateStatus {
                 System.out.println("Access token: " + accessToken.getToken());
                 System.out.println("Access token secret: " + accessToken.getTokenSecret());
             } catch (IllegalStateException ie) {
-                // access token is already available, or consumer key/secret is not set.
+                // access token is already available, or consumer key/secret is not set. hgfhgftu
                 if (!twitter.getAuthorization().isEnabled()) {
                     System.out.println("OAuth consumer key/secret is not set.");
                     System.exit(-1);
